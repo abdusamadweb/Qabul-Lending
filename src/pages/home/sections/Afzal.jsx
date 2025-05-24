@@ -8,7 +8,7 @@ import ariza6 from '../../../assets/images/ariza6.jpg'
 
 const Afzal = () => {
     return (
-        <div className='afzal'>
+        <div className='afzal' id='afzalliklar'>
             <div className="container">
                 <h2 className="afzal__title">Nega aynan SHARQ Universiteti?</h2>
                 <ul className="afzal__list">

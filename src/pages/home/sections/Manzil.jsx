@@ -2,7 +2,7 @@ import React from 'react';
 
 const Manzil = () => {
     return (
-        <div className='manzil'>
+        <div className='manzil' id='joylashuv'>
             <div className="container">
                 <h2 className="manzil__title">Sharq Universiteti manzili</h2>
                 <div className="manzil__locate">

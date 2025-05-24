@@ -5,7 +5,7 @@ import geroImg from '../../../assets/images/hero-img.png'
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id='hero'>
             <div className="container">
                 <div className='header row between align-center'>
                     <Link className='header__logo' to='/'>

@@ -5,7 +5,7 @@ import {PhoneInput} from "../../../components/inputs/Inputs.jsx";
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id='ariza'>
             <div className="container">
                 <div className="about__inner">
                     <img src={img} alt="img"/>

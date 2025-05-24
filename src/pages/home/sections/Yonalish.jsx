@@ -22,7 +22,7 @@ const items = [
 
 const Yonalish = () => {
     return (
-        <div className="yonalish">
+        <div className="yonalish" id="yonalishlar">
             <div className="container">
                 <h2 className="yonalish__title">Ta'lim yo'nalishlari</h2>
                 <p className="yonalish__desc">
