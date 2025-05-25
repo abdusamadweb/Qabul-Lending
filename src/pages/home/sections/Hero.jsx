@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import logo from '../../../assets/images/logo.svg'
 import geroImg from '../../../assets/images/hero-img.png'
+import navBar from '../../../assets/images/bar-icon.svg'
+import {Drawer} from "antd";
 
 const Hero = () => {
+
+    const [nav, setNav] = useState(false)
+
+
     return (
         <div className='hero' id='hero'>
             <div className="container">
@@ -16,8 +22,14 @@ const Hero = () => {
                         <a className='nav__link' href="/#yonalishlar">Yo’nalishlar</a>
                         <a className='nav__link' href="/#litsenziya">Litsenziya</a>
                         <a className='nav__link' href="/#joylashuv">Joylashuv</a>
-                        <a className='nav__link btn' href="/#ariza">Ariza topshirish</a>
+                        <a className='nav__link btn' href="https://sharqedu.uz/">Ariza topshirish</a>
                     </nav>
+                    <button className="nav-bar" onClick={() => setNav(!nav)}>
+                        {
+                            !nav ? <img src={navBar} alt="icon"/>
+                                : <i className="fa-solid fa-xmark"/>
+                        }
+                    </button>
                 </div>
                 <div className="main">
                     <div className="wrapper">
@@ -40,13 +52,28 @@ const Hero = () => {
                             </li>
                         </ul>
                         <div className="main__btns">
-                            <a className='btn' href="/#ariza">Ariza topshirish</a>
+                            <a className='btn' href="/https://sharqedu.uz/">Ariza topshirish</a>
                             <span className='btn odiy'>Sirtqi va masofaviy ta’lim ham mavjud!</span>
                         </div>
                     </div>
-                    <img className='main__img' src={geroImg} alt="img"/>
+                    <div className='main__imgs'>
+                        <img className='img' src={geroImg} alt="img"/>
+                    </div>
                 </div>
             </div>
+            <Drawer
+                width={600}
+                onClose={() => setNav(false)}
+                open={nav}
+            >
+                <nav className="nav-drawer flex-column">
+                    <a className='link' href="/#afzalliklar" onClick={() => setNav(false)}>Afzalliklar</a>
+                    <a className='link' href="/#yonalishlar" onClick={() => setNav(false)}>Yo’nalishlar</a>
+                    <a className='link' href="/#litsenziya" onClick={() => setNav(false)}>Litsenziya</a>
+                    <a className='link' href="/#joylashuv" onClick={() => setNav(false)}>Joylashuv</a>
+                    <a className='link btn' href="https://sharqedu.uz/">Ariza topshirish</a>
+                </nav>
+            </Drawer>
         </div>
     );
 };
