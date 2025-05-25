@@ -3,6 +3,10 @@
 .home {
   padding-bottom: 40px;
 
+  @include mobile {
+    padding-bottom: 25px;
+  }
+
   .hero {
     position: relative;
     color: #fff;
@@ -105,6 +109,19 @@
     }
   }
 
+  .sect {
+    @include mobile {
+      padding-block: 40px !important;
+    }
+  }
+  .s-title {
+    @include tablet {
+      font-size: 28px !important;
+      text-align: center;
+      margin-bottom: 1rem !important;
+    }
+  }
+
   .afzal {
     padding-block: 60px;
 
@@ -120,6 +137,14 @@
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
 
+      @include tablet {
+        grid-template-columns: 1fr 1fr;
+      }
+      @include mobile {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
       .item {
         position: relative;
         height: 270px;
@@ -128,6 +153,10 @@
         justify-content: space-between;
         padding: 1rem;
         border-radius: 15px;
+
+        @include mobile {
+          height: 200px;
+        }
 
         img {
           position: absolute;
@@ -145,6 +174,10 @@
           font-weight: 500;
           font-size: 28px;
           color: #fff;
+
+          @include mobile {
+            font-size: 24px;
+          }
         }
       }
     }
@@ -163,12 +196,25 @@
       font-size: 20px;
       line-height: 1.4;
       margin-bottom: 2rem;
+
+      @include mobile {
+        font-size: 17px;
+        text-align: center;
+      }
     }
 
     &__list {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
+
+      @include tablet {
+        grid-template-columns: 1fr 1fr;
+      }
+      @include mobile {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
 
       .item {
         padding: 1rem;
@@ -217,6 +263,13 @@
         height: 100px;
         background: #fff;
       }
+
+      @include tablet {
+        gap: 2rem;
+      }
+      @include mobile {
+        gap: 1rem;
+      }
     }
   }
 
@@ -233,6 +286,15 @@
       border-radius: 35px;
       background: $main-color;
 
+      @include tablet {
+        grid-template-columns: 1fr;
+      }
+      @include mobile {
+        img {
+          height: 240px !important;
+        }
+      }
+
       img {
         width: 100%;
         height: 400px;
@@ -246,11 +308,22 @@
         font-size: 35px;
         margin-bottom: 22px;
         color: #fff;
+
+        @include mobile {
+          font-size: 28px;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
       }
       .desc {
         font-size: 22px;
         line-height: 1.4;
         color: #fff;
+
+        @include mobile {
+          font-size: 17px;
+          text-align: center;
+        }
       }
     }
 
@@ -260,16 +333,35 @@
       grid-template-columns: 7fr 6fr;
       gap: 100px;
 
+      @include tablet {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      @include breakpoint-down(720px) {
+        grid-template-columns: 1fr;
+      }
+
       .title {
         font-weight: 500;
         font-size: 40px;
         margin-bottom: 1rem;
         color: $txt-color;
+
+        @include mobile {
+          font-size: 28px;
+          text-align: center;
+          margin-bottom: 10px;
+        }
       }
       .desc {
         font-weight: 500;
         font-size: 20px;
         color: #0361BA;
+
+        @include mobile {
+          font-size: 18px;
+          text-align: center;
+        }
       }
 
       .ant-input, .inp-mask {
@@ -322,6 +414,20 @@
           height: 100%;
         }
       }
+
+      @include breakpoint-down(1200px) {
+        gap: 20px;
+      }
+      @include breakpoint-down(900px) {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+        .item {
+          width: fit-content;
+          height: unset;
+          margin: 0 auto;
+        }
+      }
     }
   }
 
@@ -344,6 +450,10 @@
         width: 100%;
         height: 100%;
         border-radius: inherit;
+      }
+
+      @include mobile {
+        height: 300px;
       }
     }
   }
@@ -385,6 +495,29 @@
         i {
           font-size: 26px;
           color: $txt-color;
+        }
+      }
+    }
+
+    @include breakpoint-down(950px) {
+      flex-flow: column;
+      gap: 25px;
+
+      &__tel {
+        font-size: 28px;
+      }
+
+      &__tgs {
+        width: unset;
+        gap: 20px;
+
+        .tg {
+          width: 38px;
+          height: 38px;
+
+          i {
+            font-size: 22px;
+          }
         }
       }
     }

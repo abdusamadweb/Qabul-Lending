@@ -4,9 +4,9 @@ import litsenz2 from '../../../assets/images/licence2.png'
 
 const Litsenziya = () => {
     return (
-        <div className="litsenz" id="litsenziya">
+        <div className="litsenz sect" id="litsenziya">
             <div className="container">
-                <h2 className="litsenz__title">Sharq Universiteti Litsenziyasi</h2>
+                <h2 className="litsenz__title s-title">Sharq Universiteti Litsenziyasi</h2>
                 <div className="litsenz__list">
                     <div className="item">
                         <img src={litsenz1} alt="img"/>
