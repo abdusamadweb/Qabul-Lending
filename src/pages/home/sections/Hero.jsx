@@ -52,7 +52,7 @@ const Hero = () => {
                             </li>
                         </ul>
                         <div className="main__btns">
-                            <a className='btn' href="/https://sharqedu.uz/">Ariza topshirish</a>
+                            <a className='btn' href="https://sharqedu.uz/">Ariza topshirish</a>
                             <span className='btn odiy'>Sirtqi va masofaviy ta’lim ham mavjud!</span>
                         </div>
                     </div>
