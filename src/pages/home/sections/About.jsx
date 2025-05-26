@@ -23,37 +23,37 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <Form
-                    className="about__form form"
-                    layout="vertical"
-                >
-                    <div className="form__titles">
-                        <h2 className="title">Ariza topshirish</h2>
-                        <p className="desc">Hoziroq ariza qoldiring - biz sizga imkoniyatlar haqida
-                            batafsil ma'lumot beramiz!</p>
-                    </div>
-                    <div>
-                        <Form.Item
-                            name="name"
-                            rules={[{ required: true, message: "Iltimos to'ldiring" }]}
-                        >
-                            <Input placeholder='Ismingizni kiriting' />
-                        </Form.Item>
-                        <Form.Item
-                            name="phone_number"
-                            rules={[{ required: true, message: "Iltimos to'ldiring" }]}
-                        >
-                            <PhoneInput />
-                        </Form.Item>
-                        <Button
-                            size='large'
-                            type="primary"
-                            htmlType="submit"
-                        >
-                            Ro'yxatdan o'tish
-                        </Button>
-                    </div>
-                </Form>
+                {/*<Form*/}
+                {/*    className="about__form form"*/}
+                {/*    layout="vertical"*/}
+                {/*>*/}
+                {/*    <div className="form__titles">*/}
+                {/*        <h2 className="title">Ariza topshirish</h2>*/}
+                {/*        <p className="desc">Hoziroq ariza qoldiring - biz sizga imkoniyatlar haqida*/}
+                {/*            batafsil ma'lumot beramiz!</p>*/}
+                {/*    </div>*/}
+                {/*    <div>*/}
+                {/*        <Form.Item*/}
+                {/*            name="name"*/}
+                {/*            rules={[{ required: true, message: "Iltimos to'ldiring" }]}*/}
+                {/*        >*/}
+                {/*            <Input placeholder='Ismingizni kiriting' />*/}
+                {/*        </Form.Item>*/}
+                {/*        <Form.Item*/}
+                {/*            name="phone_number"*/}
+                {/*            rules={[{ required: true, message: "Iltimos to'ldiring" }]}*/}
+                {/*        >*/}
+                {/*            <PhoneInput />*/}
+                {/*        </Form.Item>*/}
+                {/*        <Button*/}
+                {/*            size='large'*/}
+                {/*            type="primary"*/}
+                {/*            htmlType="submit"*/}
+                {/*        >*/}
+                {/*            Ro'yxatdan o'tish*/}
+                {/*        </Button>*/}
+                {/*    </div>*/}
+                {/*</Form>*/}
             </div>
         </div>
     );
