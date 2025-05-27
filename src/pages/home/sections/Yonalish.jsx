@@ -6,18 +6,205 @@ const items = [
         inner: [
             {
                 daily: 'Kunduzgi',
-                year: '4-yil',
                 lang: 'O’zbek tili',
+                year: '4-yil',
                 money: '16 million'
             },
             {
-                daily: 'Kunduzgi 2',
-                year: '4-yil',
+                daily: 'Sirtqi',
                 lang: 'O’zbek tili',
+                year: '4-yil',
                 money: '16 million'
             },
         ]
-    }
+    },
+    {
+        title: '60610500 - Sun’iy intellekt',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '19 million'
+            },
+            {
+                daily: 'Masofaviy ta’lim',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60611200 - Kiberxavfsizlik injiniringi',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '18 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60610400 - Dasturiy injiniringi',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '17 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60230100 - Psixologiya',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '15 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60410100 - Iqtisodiyot',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '15 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60410900 - Biznesni boshqarish',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60411200 - Marketing',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '15 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60410500 - Moliya va moliyaviy texnologiyalar',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60230100 - Filologiya va tillarni o’qitish (ingliz tili)',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '15 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60230100 - Filologiya va tillarni o’qitish (rus tili)',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '14 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
+    {
+        title: '60230100 - Filologiya va tillarni o’qitish (o’zbek tili)',
+        inner: [
+            {
+                daily: 'Kunduzgi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '12 million'
+            },
+            {
+                daily: 'Sirtqi',
+                lang: 'O’zbek tili',
+                year: '4-yil',
+                money: '16 million'
+            },
+        ]
+    },
 ]
 
 const Yonalish = () => {
@@ -31,7 +218,7 @@ const Yonalish = () => {
                     Bizning Universitetda siz Biznes, Pedagogika, Yuridik va IT yo’nalishidagi barcha kasblarni bemalol egallashingiz mumkin!
                 </p>
                 <ul className="yonalish__list">
-                    {Array(4).fill(null).flatMap(() => items)?.map((i, index) => (
+                    {items?.map((i, index) => (
                         <li className="item" key={index}>
                             <h3 className="item__title">{ i.title }</h3>
                             <div className="flex-column g10">
