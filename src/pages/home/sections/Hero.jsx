@@ -22,7 +22,7 @@ const Hero = () => {
                         <a className='nav__link' href="/#yonalishlar">Yo’nalishlar</a>
                         <a className='nav__link' href="/#litsenziya">Litsenziya</a>
                         <a className='nav__link' href="/#joylashuv">Joylashuv</a>
-                        <a className='nav__link btn' href="https://sharqedu.uz/">Ariza topshirish</a>
+                        <a className='nav__link btn' href="https://qabul.sharqedu.uz/">Ariza topshirish</a>
                     </nav>
                     <button className="nav-bar" onClick={() => setNav(!nav)}>
                         {
@@ -52,7 +52,7 @@ const Hero = () => {
                             </li>
                         </ul>
                         <div className="main__btns">
-                            <a className='btn' href="https://sharqedu.uz/">Ariza topshirish</a>
+                            <a className='btn' href="https://qabul.sharqedu.uz/">Ariza topshirish</a>
                             <span className='btn odiy'>Sirtqi va masofaviy ta’lim ham mavjud!</span>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Hero = () => {
                     <a className='link' href="/#yonalishlar" onClick={() => setNav(false)}>Yo’nalishlar</a>
                     <a className='link' href="/#litsenziya" onClick={() => setNav(false)}>Litsenziya</a>
                     <a className='link' href="/#joylashuv" onClick={() => setNav(false)}>Joylashuv</a>
-                    <a className='link btn' href="https://sharqedu.uz/">Ariza topshirish</a>
+                    <a className='link btn' href="https://qabul.sharqedu.uz/">Ariza topshirish</a>
                 </nav>
             </Drawer>
         </div>
