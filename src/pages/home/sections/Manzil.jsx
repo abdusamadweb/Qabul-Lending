@@ -7,7 +7,7 @@ const Manzil = () => {
                 <h2 className="manzil__title s-title">Sharq Universiteti manzili</h2>
                 <div className="manzil__locate">
                     <iframe
-                        src="https://api-maps.yandex.ru/frame/v1/-/CVh7YBYg?"
+                        src="https://api-maps.yandex.ru/frame/v1/-/CHCkfHoU"
                         frameBorder="0"
                     />
                 </div>
