@@ -26,6 +26,9 @@ importers:
       imask:
         specifier: ^7.6.1
         version: 7.6.1
+      install:
+        specifier: ^0.13.0
+        version: 0.13.0
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -47,6 +50,9 @@ importers:
       sass:
         specifier: ^1.85.1
         version: 1.85.1
+      swiper:
+        specifier: ^11.2.8
+        version: 11.2.8
     devDependencies:
       '@eslint/js':
         specifier: ^9.21.0
@@ -1077,6 +1083,10 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
+  install@0.13.0:
+    resolution: {integrity: sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==}
+    engines: {node: '>= 0.10'}
+
   is-extglob@2.1.1:
     resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
@@ -1616,6 +1626,10 @@ packages:
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
+
+  swiper@11.2.8:
+    resolution: {integrity: sha512-S5FVf6zWynPWooi7pJ7lZhSUe2snTzqLuUzbd5h5PHUOhzgvW0bLKBd2wv0ixn6/5o9vwc/IkQT74CRcLJQzeg==}
+    engines: {node: '>= 4.7.0'}
 
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
@@ -2727,6 +2741,8 @@ snapshots:
 
   inherits@2.0.4: {}
 
+  install@0.13.0: {}
+
   is-extglob@2.1.1: {}
 
   is-glob@4.0.3:
@@ -3327,6 +3343,8 @@ snapshots:
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
+
+  swiper@11.2.8: {}
 
   text-table@0.2.0: {}
 

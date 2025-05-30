@@ -8,6 +8,7 @@ import Footer from "./sections/Footer.jsx";
 import Manzil from "./sections/Manzil.jsx";
 import Litsenziya from "./sections/Litsenziya.jsx";
 import About from "./sections/About.jsx";
+import AI from "./sections/AI.jsx";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Hero />
             <Afzal />
             <Yonalish />
+            <AI />
             <Hamkor />
             <About />
             <Litsenziya />

@@ -8,13 +8,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '16 million'
+                money: '15 million'
             },
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -25,13 +25,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '19 million'
+                money: '18 million'
             },
             {
-                daily: 'Masofaviy ta’lim',
-                lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                daily: 'Sirtqi',
+                lang: '.',
+                year: 'Mavjud emas',
+                money: '.'
             },
         ]
     },
@@ -47,8 +47,8 @@ const items = [
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -59,13 +59,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '17 million'
+                money: '18 million'
             },
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -81,8 +81,8 @@ const items = [
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -98,8 +98,8 @@ const items = [
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -115,8 +115,8 @@ const items = [
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -127,13 +127,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '15 million'
+                money: '16 million'
             },
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -144,13 +144,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '16 million'
+                money: '17 million'
             },
             {
                 daily: 'Sirtqi',
                 lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                year: '(O’qishni ko’chirish)',
+                money: '13 million'
             },
         ]
     },
@@ -165,9 +165,9 @@ const items = [
             },
             {
                 daily: 'Sirtqi',
-                lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                lang: '.',
+                year: 'Mavjud emas',
+                money: '.'
             },
         ]
     },
@@ -178,13 +178,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '14 million'
+                money: '15 million'
             },
             {
                 daily: 'Sirtqi',
-                lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                lang: '.',
+                year: 'Mavjud emas',
+                money: '.'
             },
         ]
     },
@@ -195,13 +195,13 @@ const items = [
                 daily: 'Kunduzgi',
                 lang: 'O’zbek tili',
                 year: '4-yil',
-                money: '12 million'
+                money: '15 million'
             },
             {
                 daily: 'Sirtqi',
-                lang: 'O’zbek tili',
-                year: '4-yil',
-                money: '16 million'
+                lang: '.',
+                year: 'Mavjud emas',
+                money: '.'
             },
         ]
     },
