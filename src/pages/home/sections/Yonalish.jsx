@@ -211,10 +211,10 @@ const Yonalish = () => {
     return (
         <div className="yonalish sect" id="yonalishlar">
             <div className="container">
-                <h2 className="yonalish__title s-title">Ta'lim yo'nalishlari</h2>
+                <h2 className="yonalish__title s-title">Ta'lim yoʻnalishlari</h2>
                 <p className="yonalish__desc">
                     Bu dunyodagi eng yuqori maosh to‘lanadigan va doimiy talabga ega bo’lgan yo‘nalishlar!
-                    Barcha dasturlarXalqaro ta’lim markazlari  bilan hamkorlikda o'qitiladi.
+                    Barcha dasturlar Xalqaro ta’lim markazlari  bilan hamkorlikda oʻqitiladi.
                     Bizning Universitetda siz Biznes, Pedagogika, Yuridik va IT yo’nalishidagi barcha kasblarni bemalol egallashingiz mumkin!
                 </p>
                 <ul className="yonalish__list">
